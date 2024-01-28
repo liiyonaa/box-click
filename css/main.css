@@ -1,0 +1,33 @@
+div.wrapper{
+    width: 900px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: palevioletred;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+div.wrapper>div{
+    width: 170px;
+    height: 170px;
+    background-color: lightpink;
+    border-radius: 50%;
+    color: p;
+    
+}
+.color{
+    background-color:lightpink ;
+
+}
+.enter{
+    background-color: aqua ;
+    transition: 500ms;
+    border-radius: 50%;
+}
+.leave{
+    background-color: pink ;
+    transition: 500ms;
+    border-radius: 0%;
+}
